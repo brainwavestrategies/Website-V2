@@ -1,0 +1,29 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+	<title>Logo Vector Color</title>
+	<defs>
+		<linearGradient id="g1" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,-800,715.527,0,400,800)">
+			<stop offset="0" stop-color="#0e1116"/>
+			<stop offset="1" stop-color="#cb9cf2"/>
+		</linearGradient>
+		<linearGradient id="g2" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,-800,212.129,0,400,800)">
+			<stop offset="0" stop-color="#0e1116"/>
+			<stop offset="1" stop-color="#cb9cf2"/>
+		</linearGradient>
+		<linearGradient id="g3" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,-800,438.544,0,400,800)">
+			<stop offset="0" stop-color="#0e1116"/>
+			<stop offset="1" stop-color="#cb9cf2"/>
+		</linearGradient>
+	</defs>
+	<style>
+		.s0 { fill: none;stroke: url(#g1);stroke-linecap: round;stroke-linejoin: round;stroke-width: 50 } 
+		.s1 { fill: none;stroke: url(#g2);stroke-linecap: round;stroke-linejoin: round;stroke-width: 50 } 
+		.s2 { fill: none;stroke: url(#g3);stroke-linecap: round;stroke-linejoin: round;stroke-width: 50 } 
+	</style>
+	<g id="Layer 1">
+		<g id="Folder 1">
+			<path id="Shape 4" class="s0" d="m548.5 332.6l1.1 336.8zm-181.8 179.9l1 157zm92-374.8l1 531.9zm-81.6 87.7l80.8-95.3zm83.6-95.3l80.8 95.3zm-183.7 417.1l1.1 122.4zm-92 43.3l1.1 79.1zm455.5-136.5l1.1 215.5zm-481.4-44.4l217.9-93.1zm0 95.4l218-93.1z"/>
+			<path id="Shape 2" fill-rule="evenodd" class="s1" d="m642.3 251.2c65.7 64.2 106.6 154.5 106.6 254.6 0 52.7-11.3 102.6-31.6 147.4"/>
+			<path id="Shape 1" fill-rule="evenodd" class="s2" d="m93.6 666.6c-27.2-49.8-42.6-107.2-42.6-168.2 0-170.3 120.2-311.7 279.4-341.5"/>
+		</g>
+	</g>
+</svg>

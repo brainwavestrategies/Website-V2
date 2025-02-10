@@ -3,7 +3,7 @@ import hero2Img from "@/assets/hero2-img.svg";
 
 const SubHeroSection = () => {
   return (
-    <div className="flex flex-col lg:flex-row px-4 md:px-24 gap-8 md:gap-12 items-center">
+    <div className="flex flex-col lg:flex-row px-8 md:px-24 gap-8 md:gap-12 items-center">
       <div className="basis-5/12">
         <img
           src={hero2Img}
@@ -21,14 +21,14 @@ const SubHeroSection = () => {
           <br />
           With The World
         </div>
-        <p className="font-quicksand text-lg md:text-2xl text-right md:text-left px-4 lg:px-0 text-black/80">
+        <p className="font-quicksand text-lg md:text-2xl text-right md:text-left text-black/80">
           Every business deserves to stand out online. At{" "}
           <span className="font-bold font-poppins">Enshift Digital</span>, we
           transform your digital vision into reality through customized
           solutions that drive growth, engage customers, and build lasting
           success.
         </p>
-        <button className="mx-4 lg:mx-0 flex shadow-lg hover:shadow-none items-center w-fit gap-4 font-lexend text-xl px-6 md:px-8 py-2 md:py-3 rounded-md bg-color3 text-white font-semibold transition duration-200 hover:bg-white hover:text-black border-2 border-transparent hover:border-color3">
+        <button className="flex shadow-lg hover:shadow-none items-center w-fit gap-4 font-lexend text-xl px-6 md:px-8 py-2 md:py-3 rounded-md bg-color3 text-white font-semibold transition duration-200 hover:bg-white hover:text-black border-2 border-transparent hover:border-color3">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

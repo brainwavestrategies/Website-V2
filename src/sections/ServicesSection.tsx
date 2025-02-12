@@ -1,6 +1,5 @@
 import { AnimatedGradientText } from "@/components/magicui/animated-gradient-text";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
-import { ChevronRight } from "lucide-react";
 
 import socialMedia from "@/assets/media-management.jpg";
 import digitalMarketing from "@/assets/digital-marketing.jpg";
@@ -113,7 +112,6 @@ const ServicesSection = () => {
         <span className="inline animate-gradient bg-gradient-to-r from-[#ffaa40] via-[#9c40ff] to-[#ffaa40] bg-[length:var(--bg-size)_100%] bg-clip-text text-transparent">
           Our Services
         </span>
-        <ChevronRight className="ml-2 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
       </AnimatedGradientText>
       <h1 className="font-poppins text-3xl md:text-4xl text-color5 leading-normal mx-auto text-center mt-6">
         Comprehensive Digital <br className="lg:block hidden" />

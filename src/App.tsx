@@ -1,8 +1,6 @@
 import heroImg from "./assets/hero-img.svg";
 import { useState } from "react";
 
-import { ChevronRight } from "lucide-react";
-
 import { ScrollProgress } from "@/components/magicui/scroll-progress";
 import { AuroraBackground } from "@/components/ui/aurora-background";
 import { AnimatedGradientText } from "@/components/magicui/animated-gradient-text";
@@ -448,7 +446,6 @@ function App() {
             <span className="inline animate-gradient bg-gradient-to-r from-[#ffaa40] via-[#9c40ff] to-[#ffaa40] bg-[length:var(--bg-size)_100%] bg-clip-text text-transparent">
               Our Process
             </span>
-            <ChevronRight className="ml-2 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
           </AnimatedGradientText>
           <Timeline data={data} />
         </div>
@@ -475,7 +472,6 @@ function App() {
           <span className="inline animate-gradient bg-gradient-to-r from-[#ffaa40] via-[#9c40ff] to-[#ffaa40] bg-[length:var(--bg-size)_100%] bg-clip-text text-transparent">
             Why Choose Us
           </span>
-          <ChevronRight className="ml-2 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
         </AnimatedGradientText>
         <h1 className="font-poppins text-color5 text-3xl md:text-4xl leading-tight mx-auto text-center mt-6">
           The Enshift Advantage

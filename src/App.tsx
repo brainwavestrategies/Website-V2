@@ -95,18 +95,18 @@ const SkeletonThree = ({ img1, img2, img3 }: any) => {
     >
       <motion.div
         variants={first}
-        className="h-full w-1/3 rounded-2xl bg-white p-4 dark:bg-black dark:border-white/[0.1] border border-neutral-200 flex flex-col items-center justify-center"
+        className="w-1/3 rounded-2xl bg-white p-4 dark:bg-black dark:border-white/[0.1] border border-neutral-200 flex flex-col items-center justify-center"
       >
-        <img src={img1} alt="avatar" className="h-full" />
+        <img src={img1} alt="avatar" />
       </motion.div>
-      <motion.div className="h-full relative z-20 w-1/3 p-4 rounded-2xl bg-white dark:bg-black dark:border-white/[0.1] border border-neutral-200 flex flex-col items-center justify-center">
-        <img src={img2} alt="avatar" className="h-full" />
+      <motion.div className="relative z-20 w-1/3 p-4 rounded-2xl bg-white dark:bg-black dark:border-white/[0.1] border border-neutral-200 flex flex-col items-center justify-center">
+        <img src={img2} alt="avatar" />
       </motion.div>
       <motion.div
         variants={second}
-        className="h-full w-1/3 rounded-2xl bg-white dark:bg-black dark:border-white/[0.1] border border-neutral-200 flex flex-col items-center justify-center"
+        className="w-1/3 rounded-2xl bg-white dark:bg-black dark:border-white/[0.1] border border-neutral-200 flex flex-col items-center justify-center"
       >
-        <img src={img3} alt="avatar" className="h-full" />
+        <img src={img3} alt="avatar" />
       </motion.div>
     </motion.div>
   );

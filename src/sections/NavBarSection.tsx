@@ -5,6 +5,7 @@ import {
   DrawerTrigger,
   DrawerClose,
 } from "@/components/ui/drawer";
+import { Separator } from "@/components/ui/separator";
 
 const NavBarSection = () => {
   return (
@@ -45,21 +46,25 @@ const NavBarSection = () => {
                   Home
                 </DrawerClose>
               </a>
+              <Separator className="bg-gray-200 w-full mx-auto" />
               <a href="#ourServices">
                 <DrawerClose className="text-xl w-full px-8 py-8">
                   Our Services
                 </DrawerClose>
               </a>
+              <Separator className="bg-gray-200 w-full mx-auto" />
               <a href="#ourProcess">
                 <DrawerClose className="text-xl w-full px-8 py-8">
                   Our Process
                 </DrawerClose>
               </a>
+              <Separator className="bg-gray-200 w-full mx-auto" />
               <a href="#whyUs">
                 <DrawerClose className="text-xl w-full px-8 py-8">
                   Why Us
                 </DrawerClose>
               </a>
+              <Separator className="bg-gray-200 w-full mx-auto" />
               <a href="#contactUs">
                 <DrawerClose className="text-xl w-full px-8 py-8">
                   Contact Us
